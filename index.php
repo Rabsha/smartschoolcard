@@ -149,6 +149,220 @@
     left: 0;
     top: 34px;
 }
+.webwork {
+    display: block;
+}
+.mobilework{
+    display: none;
+}
+@media only screen and (max-width: 1060px)
+{
+    .rightside:after {
+        border-right: 374px solid #d9162c;
+    }
+}
+@media only screen and (max-width: 1024px)
+{
+    .maincard {
+        display: inherit;
+    }
+    .logo img {
+        width: 30%;
+    }
+    .rightside:after{
+        display: none;
+    }
+    .headingwork h1 {
+        font-size: 56px;
+        margin: 0;
+    }
+    .headingwork h2 {
+        font-size: 26px;
+        width: 30%;
+        padding-top: 8px;
+    }
+    .webwork {
+        display: none;
+    }
+    .mobilework {
+        display: block;
+        padding-top: 36px;
+    }
+    .barcodework::before{
+        display: none;
+    }
+    .barcodework::after{
+        display: none;
+    }
+    .candidatework img {
+        width: 50%;
+    }
+    .detailwork {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0;
+    }
+    .detailwork h5 {
+        padding: 0 22px;
+    }
+    .detailwork span {
+        padding: 0 22px;
+    }
+    .barcodes img {
+        width: 48%;
+    }
+    .headingwork {
+        padding-bottom: 30px;
+    }
+    .rightside {
+        text-align: center;
+        background: #d9162c;
+        width: 70%;
+        margin: 0 auto;
+        padding: 50px 20px;
+    }
+    .dateofbirth h2{
+        margin: 0;
+    }
+    .canditextwork h1{
+        letter-spacing: 3px;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .headingwork h2 {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .logo img {
+        width: 35%;
+    }
+    .headingwork h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .candidatework img {
+        width: 70%;
+    }
+    .canditextwork h1 {
+        font-size: 26px;
+    }
+    .canditextwork h3 {
+        font-size: 23px;
+    }
+    .dateofbirth {
+        padding-top: 30px;
+    }
+    .dateofbirth h1 {
+        font-size: 22px;
+    }
+    .dateofbirth h2 {
+        font-size: 18px;
+    }
+    .barcodes img {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .logo img {
+        width: 35%;
+    }
+    .headingwork h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .headingwork h2 {
+        width: 50%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .rightside {
+        width: 80%;
+    }
+    .barcodes img {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 414px)
+{
+    .logo img {
+        width: 46%;
+    }
+    .headingwork h2 {
+        line-height: 26px;
+    }
+    .rightside {
+        width: 90%;
+        padding: 33px 20px;
+    }
+    .barcodes img {
+        width: 85%;
+    }
+    .canditextwork h1 {
+        font-size: 22px;
+    }
+    .canditextwork h3 {
+        font-size: 20px;
+    }
+    .dateofbirth h1 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 360px)
+{
+    .logo img {
+        width: 60%;
+    }
+    .headingwork h1 {
+        font-size: 38px;
+        word-spacing: 2px;
+    }
+    .headingwork h2 {
+        width: 80%;
+    }
+    .detailwork h5 {
+        font-size: 15px;
+    }
+    .detailwork span {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 342px)
+{
+    .canditextwork h1 {
+        font-size: 18px;
+    }
+    .canditextwork h3 {
+        font-size: 18px;
+    }
+    .dateofbirth h1 {
+        font-size: 18px;
+    }
+    .dateofbirth h2 {
+        font-size: 16px;
+    }
+    .detailwork h5 {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 320px)
+{
+    .logo img {
+        width: 60%;
+    }
+    .headingwork h1 {
+        font-size: 35px;
+        word-spacing: 2px;
+    }
+    .headingwork h2 {
+        width: 80%;
+        font-size: 20px;
+    }
+}
 </style>
 <body>
 <div class="wrapper">
@@ -162,7 +376,7 @@
                     <h1>The Smart School</h1>
                     <h2>IBN-E-SACHAL CAMPUS</h2>
                 </div>
-                <div class="barcodework">
+                <div class="barcodework webwork">
                     <div class="detailwork">
                         <h5>STUDENT ID</h5>
                         <span>0897536437</span>
@@ -183,6 +397,15 @@
                 <div class="dateofbirth">
                     <h1>DATE OF BIRTH</h1>
                     <h2>26-09-2012</h2>
+                </div>
+            </div>
+            <div class="barcodework mobilework">
+                <div class="detailwork">
+                    <h5>STUDENT ID</h5>
+                    <span>0897536437</span>
+                </div>
+                <div class="barcodes">
+                    <img src="assets/images/barcode.png" />
                 </div>
             </div>
         </div>

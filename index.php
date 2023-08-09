@@ -24,6 +24,9 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    position: relative;
 }
 .leftside {
     text-align: center;
@@ -34,17 +37,12 @@
 .rightside {
     text-align: center;
 }
-.candidatework img {
-    width: 85%;
-    border: 1px solid #ccc;
-    background: #fff;
-}
 .headingwork h1 {
     font-family: MySchoolFont;
     color: #d82f3b;
     word-spacing: 8px;
     font-size: 48px;
-    padding-top: 20px;
+    padding-top: 16px;
 }
 .headingwork h2 {
     font-size: 30px;
@@ -59,6 +57,7 @@
 }
 .barcodework {
     text-align: left;
+    position: relative;
 }
 .detailwork {
     display: flex;
@@ -77,10 +76,10 @@
 .detailwork span {
     font-size: 20px;
 }
-.barcodework {
+.barcodes {
     text-align: center;
 }
-.barcodework img {
+.barcodes img {
     width: 73%;
 }
 .detailwork {
@@ -95,6 +94,60 @@
     font-weight: 500;
     font-size: 28px;
     letter-spacing: 5px;
+    padding-top: 20px;
+    margin: 0;
+    padding-bottom: 16px;
+    color: #fff;
+}
+.candidatework img {
+    width: 80%;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.canditextwork h3 {
+    font-size: 26px;
+    color: #fff;
+}
+.dateofbirth {
+    padding-top: 45px;
+}
+.dateofbirth h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.dateofbirth h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+.rightside:after {
+    border-top: 600px solid #d9162c;
+    border-left: 239px solid transparent;
+    border-right: 405px solid #d9162c;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -9;
+}
+.barcodework:after {
+    border-bottom: 132px solid black;
+    border-left: 222px solid transparent;
+    border-right: 52px solid transparent;
+    content: "";
+    position: absolute;
+    right: -166px;
+    top: 34px;
+}
+.barcodework:before {
+    border-bottom: 132px solid black;
+    border-left: 0 solid transparent;
+    border-right: 50px solid transparent;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 34px;
 }
 </style>
 <body>
@@ -114,7 +167,7 @@
                         <h5>STUDENT ID</h5>
                         <span>0897536437</span>
                     </div>
-                    <div class="barcodework">
+                    <div class="barcodes">
                         <img src="assets/images/barcode.png" />
                     </div>
                 </div>

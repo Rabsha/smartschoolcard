@@ -15,10 +15,10 @@
   font-family: MySchoolFont;
   src: url(../smartschoolcard/assets/font/arenskiregular.ttf);
 }
-.headingwork h1 {
+.headingworkstdh h1 {
   font-family: MySchoolFont;
 }
-.maincard {
+.maincardstdh {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -28,23 +28,23 @@
     padding-bottom: 35px;
     position: relative;
 }
-.leftside {
+.leftsidestdh {
     text-align: center;
 }
-.logo img {
+.logostdh img {
     width: 55%;
 }
-.rightside {
+.rightsidestdh {
     text-align: center;
 }
-.headingwork h1 {
+.headingworkstdh h1 {
     font-family: MySchoolFont;
     color: #d82f3b;
     word-spacing: 8px;
     font-size: 48px;
     padding-top: 16px;
 }
-.headingwork h2 {
+.headingworkstdh h2 {
     font-size: 30px;
     width: 70%;
     margin: 0 auto;
@@ -52,37 +52,37 @@
     letter-spacing: 3px;
     font-weight: 600;
 }
-.headingwork {
+.headingworkstdh {
     padding-bottom: 60px;
 }
-.barcodework {
+.barcodeworkstdh {
     text-align: left;
     position: relative;
 }
-.detailwork {
+.detailworkstdh {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
 }
-.detailwork h5 {
+.detailworkstdh h5 {
     font-size: 18px;
     color: #948c8c;
     font-weight: 600;
     letter-spacing: 3px;
     margin: 0;
 }
-.detailwork span {
+.detailworkstdh span {
     font-size: 20px;
 }
-.barcodes {
+.barcodesStdh {
     text-align: center;
 }
-.barcodes img {
+.barcodesStdh img {
     width: 73%;
 }
-.detailwork {
+.detailworkstdh {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -90,7 +90,7 @@
     align-items: center;
     padding: 0 26px;
 }
-.canditextwork h1 {
+.canditextworkstdh h1 {
     font-weight: 500;
     font-size: 28px;
     letter-spacing: 5px;
@@ -99,29 +99,29 @@
     padding-bottom: 16px;
     color: #fff;
 }
-.candidatework img {
+.candidateworkstdh img {
     width: 80%;
     border: 1px solid #ccc;
     background: #fff;
 }
-.canditextwork h3 {
+.canditextworkstdh h3 {
     font-size: 26px;
     color: #fff;
 }
-.dateofbirth {
+.dateofbirthstdh {
     padding-top: 45px;
 }
-.dateofbirth h1 {
+.dateofbirthstdh h1 {
     font-size: 24px;
     letter-spacing: 2px;
     color: #fff;
 }
-.dateofbirth h2 {
+.dateofbirthstdh h2 {
     font-size: 22px;
     font-weight: 600;
     color: #fff;
 }
-.rightside:after {
+.rightsidestdh:after {
     border-top: 600px solid #d9162c;
     border-left: 239px solid transparent;
     border-right: 405px solid #d9162c;
@@ -131,7 +131,7 @@
     right: 0;
     z-index: -9;
 }
-.barcodework:after {
+.barcodeworkstdh:after {
     border-bottom: 132px solid black;
     border-left: 222px solid transparent;
     border-right: 52px solid transparent;
@@ -140,7 +140,7 @@
     right: -166px;
     top: 34px;
 }
-.barcodework:before {
+.barcodeworkstdh:before {
     border-bottom: 132px solid black;
     border-left: 0 solid transparent;
     border-right: 50px solid transparent;
@@ -149,55 +149,55 @@
     left: 0;
     top: 34px;
 }
-.webwork {
+.webworkstdh {
     display: block;
 }
-.mobilework{
+.mobileworkstdh{
     display: none;
 }
 @media only screen and (max-width: 1060px)
 {
-    .rightside:after {
+    .rightsidestdh:after {
         border-right: 374px solid #d9162c;
     }
 }
 @media only screen and (max-width: 1024px)
 {
-    .maincard {
+    .maincardstdh {
         display: inherit;
     }
-    .logo img {
+    .logostdh img {
         width: 30%;
     }
-    .rightside:after{
+    .rightsidestdh:after{
         display: none;
     }
-    .headingwork h1 {
+    .headingworkstdh h1 {
         font-size: 56px;
         margin: 0;
     }
-    .headingwork h2 {
+    .headingworkstdh h2 {
         font-size: 26px;
         width: 30%;
         padding-top: 8px;
     }
-    .webwork {
+    .webworkstdh {
         display: none;
     }
-    .mobilework {
+    .mobileworkstdh {
         display: block;
         padding-top: 36px;
     }
-    .barcodework::before{
+    .barcodeworkstdh::before{
         display: none;
     }
-    .barcodework::after{
+    .barcodeworkstdh::after{
         display: none;
     }
-    .candidatework img {
+    .candidateworkstdh img {
         width: 50%;
     }
-    .detailwork {
+    .detailworkstdh {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -205,206 +205,206 @@
         align-items: center;
         padding: 0 0;
     }
-    .detailwork h5 {
+    .detailworkstdh h5 {
         padding: 0 22px;
     }
-    .detailwork span {
+    .detailworkstdh span {
         padding: 0 22px;
     }
-    .barcodes img {
+    .barcodesStdh img {
         width: 48%;
     }
-    .headingwork {
+    .headingworkstdh {
         padding-bottom: 30px;
     }
-    .rightside {
+    .rightsidestdh {
         text-align: center;
         background: #d9162c;
         width: 70%;
         margin: 0 auto;
         padding: 50px 20px;
     }
-    .dateofbirth h2{
+    .dateofbirthstdh h2{
         margin: 0;
     }
-    .canditextwork h1{
+    .canditextworkstdh h1{
         letter-spacing: 3px;
         font-size: 30px;
     }
 }
 @media only screen and (max-width: 767px){
-    .headingwork h2 {
+    .headingworkstdh h2 {
         width: 50%;
     }
 }
 @media only screen and (max-width: 600px){
-    .logo img {
+    .logostdh img {
         width: 35%;
     }
-    .headingwork h1 {
+    .headingworkstdh h1 {
         font-size: 40px;
         margin: 0;
     }
-    .candidatework img {
+    .candidateworkstdh img {
         width: 70%;
     }
-    .canditextwork h1 {
+    .canditextworkstdh h1 {
         font-size: 26px;
     }
-    .canditextwork h3 {
+    .canditextworkstdh h3 {
         font-size: 23px;
     }
-    .dateofbirth {
+    .dateofbirthstdh {
         padding-top: 30px;
     }
-    .dateofbirth h1 {
+    .dateofbirthstdh h1 {
         font-size: 22px;
     }
-    .dateofbirth h2 {
+    .dateofbirthstdh h2 {
         font-size: 18px;
     }
-    .barcodes img {
+    .barcodesStdh img {
         width: 60%;
     }
 }
 @media only screen and (max-width: 500px){
-    .logo img {
+    .logostdh img {
         width: 35%;
     }
-    .headingwork h1 {
+    .headingworkstdh h1 {
         font-size: 40px;
         margin: 0;
     }
-    .headingwork h2 {
+    .headingworkstdh h2 {
         width: 50%;
         font-size: 20px;
         line-height: 24px;
     }
-    .rightside {
+    .rightsidestdh {
         width: 80%;
     }
-    .barcodes img {
+    .barcodesStdh img {
         width: 75%;
     }
 }
 @media only screen and (max-width: 414px)
 {
-    .logo img {
+    .logostdh img {
         width: 46%;
     }
-    .headingwork h2 {
+    .headingworkstdh h2 {
         line-height: 26px;
     }
-    .rightside {
+    .rightsidestdh {
         width: 90%;
         padding: 33px 20px;
     }
-    .barcodes img {
+    .barcodesStdh img {
         width: 85%;
     }
-    .canditextwork h1 {
+    .canditextworkstdh h1 {
         font-size: 22px;
     }
-    .canditextwork h3 {
+    .canditextworkstdh h3 {
         font-size: 20px;
     }
-    .dateofbirth h1 {
+    .dateofbirthstdh h1 {
         font-size: 20px;
     }
 }
 @media only screen and (max-width: 360px)
 {
-    .logo img {
+    .logostdh img {
         width: 60%;
     }
-    .headingwork h1 {
+    .headingworkstdh h1 {
         font-size: 38px;
         word-spacing: 2px;
     }
-    .headingwork h2 {
+    .headingworkstdh h2 {
         width: 80%;
     }
-    .detailwork h5 {
+    .detailworkstdh h5 {
         font-size: 15px;
     }
-    .detailwork span {
+    .detailworkstdh span {
         font-size: 16px;
     }
 }
 @media only screen and (max-width: 342px)
 {
-    .canditextwork h1 {
+    .canditextworkstdh h1 {
         font-size: 18px;
     }
-    .canditextwork h3 {
+    .canditextworkstdh h3 {
         font-size: 18px;
     }
-    .dateofbirth h1 {
+    .dateofbirthstdh h1 {
         font-size: 18px;
     }
-    .dateofbirth h2 {
+    .dateofbirthstdh h2 {
         font-size: 16px;
     }
-    .detailwork h5 {
+    .detailworkstdh h5 {
         font-size: 13px;
     }
 }
 @media only screen and (max-width: 320px)
 {
-    .logo img {
+    .logostdh img {
         width: 60%;
     }
-    .headingwork h1 {
+    .headingworkstdh h1 {
         font-size: 35px;
         word-spacing: 2px;
     }
-    .headingwork h2 {
+    .headingworkstdh h2 {
         width: 80%;
         font-size: 20px;
     }
 }
 </style>
 <body>
-<div class="wrapper">
+<div class="wrapperstdh">
     <div class="container">
-        <div class="maincard">
-            <div class="leftside">
-                <div class="logo">
+        <div class="maincardstdh">
+            <div class="leftsidestdh">
+                <div class="logostdh">
                     <img src="assets/images/mainlogo.png" />
                 </div>
-                <div class="headingwork">
+                <div class="headingworkstdh">
                     <h1>The Smart School</h1>
                     <h2>IBN-E-SACHAL CAMPUS</h2>
                 </div>
-                <div class="barcodework webwork">
-                    <div class="detailwork">
+                <div class="barcodeworkstdh webworkstdh">
+                    <div class="detailworkstdh">
                         <h5>STUDENT ID</h5>
                         <span>0897536437</span>
                     </div>
-                    <div class="barcodes">
+                    <div class="barcodesStdh">
                         <img src="assets/images/barcode.png" />
                     </div>
                 </div>
             </div>
-            <div class="rightside">
-                <div class="candidatework">
+            <div class="rightsidestdh">
+                <div class="candidateworkstdh">
                     <img src="assets/images/candidate.png" />
                 </div>
-                <div class="canditextwork">
+                <div class="canditextworkstdh">
                     <h1>RAZAM-E-HUSSAIN</h1>
                     <h3>CLASS 04</h3>
                 </div>
-                <div class="dateofbirth">
+                <div class="dateofbirthstdh">
                     <h1>DATE OF BIRTH</h1>
                     <h2>26-09-2012</h2>
                 </div>
             </div>
-            <div class="barcodework mobilework">
-                <div class="detailwork">
+            <div class="barcodeworkstdh mobileworkstdh">
+                <div class="detailworkstdh">
                     <h5>STUDENT ID</h5>
                     <span>0897536437</span>
                 </div>
-                <div class="barcodes">
+                <div class="barcodesStdh">
                     <img src="assets/images/barcode.png" />
                 </div>
             </div>
